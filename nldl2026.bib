@@ -106,7 +106,7 @@ pages={115--130}
 
 @inproceedings{hay26,
 title={Predicting Calving Events in Antarctica using Machine Learning},
-author={Hay, Jacob Alexander and Issa, Hamzeh and Parkes, David and Fantin, Daniele and Wuite, Jan and Leeson, Amber A and McMillan, Malcolm},
+author={Hay, Jacob Alexander and Issa, Hamzeh and Fantin, Daniele and Parkes, David and Wuite, Jan and Leeson, Amber A and McMillan, Malcolm},
 openreview={N5Y1FoRfiY},
 abstract={Monitoring the calving dynamics of the Antarctic ice shelves is central to
 understanding a major driver for the changes to ocean levels on our planet.
@@ -280,20 +280,12 @@ The core of our method is a straightforward yet powerful two-stage process. Firs
 pages={358--363}
 }
 
-@inproceedings{sagar26,
-title={Bayesian Multi-Scale Neural Network for Crowd Counting},
-author={Sagar, Abhinav},
-openreview={JEYdTb0lUH},
-abstract={Crowd counting is a challenging yet critical task in computer vision with applications ranging from public safety to urban planning. Recent advances using Convolutional Neural Networks (CNNs) that estimate density maps have shown significant success. However, accurately counting individuals in highly congested scenes remains an open problem due to severe occlusions, scale variations, and perspective distortions, where people appear at drastically different sizes across the image. In this work, we propose a novel deep learning architecture that effectively addresses these challenges. Our network integrates a ResNet-based feature extractor for capturing rich hierarchical representations, followed by a downsampling block employing dilated convolutions to preserve spatial resolution while expanding the receptive field. An upsampling block using transposed convolutions reconstructs the high-resolution density map. Central to our architecture is a novel Perspective-aware Aggregation Module (PAM) designed to enhance robustness to scale and perspective variations by adaptively aggregating multi-scale contextual information. We detail the training procedure, including the loss functions and optimization strategies used. Our method is evaluated on three widely used benchmark datasets ShanghaiTech, UCF-CC-50, and UCF-QNRF using Mean Absolute Error (MAE) and Mean Squared Error (MSE) as evaluation metrics. Experimental results demonstrate that our model achieves superior performance compared to existing state-of-the-art methods. Additionally, we incorporate principled Bayesian inference techniques to provide uncertainty estimates along with the crowd count predictions, offering a measure of confidence in the model's outputs.},
-pages={364--373}
-}
-
 @inproceedings{solskinnsbakk26,
 title={Reducing Manual Workload in {SAR}-Based Oil Spill Detection Through Uncertainty-Aware Deep Learning},
 author={Solskinnsbakk, Dina Svendsen and Hanssen, Sigurd Almli and Joakimsen, Harald Lykke and Gj{\ae}rum, Vilde B. and Wetzer, Elisabeth and Wickstr{\o}m, Kristoffer Knutsen},
 openreview={8wgwRsfTuH},
 abstract={Constant monitoring of the oceans is required to detect oil spills and reduce environmental damage associated with spills. Synthetic Aperture Radar (SAR) imaging is a critical tool for oil spill detection, but is complex and requires time-consuming manual labor for analysis. Deep learning has shown encouraging performance in automatic classification of oil spills on these images, but the performance is still not sufficient for a deep learning classifier to act autonomously, making manual assessment essential. However, if only a reduced subset of uncertain samples had to be analyzed by human experts while the remaining samples could be automatically classified, it could greatly reduce the manual workload. In this study, we investigate if uncertainty estimates can identify which samples should be prioritized for manual inspection. Specifically, we propose a pipeline of defining a user-specified error tolerance and identifying an uncertainty threshold that filters out samples for automatic/manual thresholding. We evaluate the proposed pipeline on challenging real-world data. The results show that our proposed uncertainty-based ranking technique can reduce the manual workload by 41\%, paving the way for new and more efficient ways to detect marine oil spills.},
-pages={374--384}
+pages={364--374}
 }
 
 @inproceedings{spoel26,
@@ -301,7 +293,7 @@ title={Investigating the relationship between diversity and generalization in de
 author={Spoel, Ruan P. Van der and Rabe, Randle},
 openreview={Khtjo6nLG8},
 abstract={In ensembles, improved generalization is frequently attributed to \emph{diversity} among members of the ensemble. By viewing a single neural network as an \emph{implicit ensemble}, we perform an exploratory investigation that applies well-known ensemble diversity measures to a neural network in order to study the relationship between diversity and generalization in the over-parameterized regime. Our results show that i) deeper layers of the network generally have higher levels of diversity---particularly for MLPs---and ii) layer-wise accuracy positively correlates with diversity. Additionally, we study the effects of well-known regularizers such as Dropout, DropConnect and batch size, on diversity and generalization. We generally find that increasing the strength of the regularizer increases the diversity in the neural network and this increase in diversity is positively correlated with model accuracy. We show that these results hold for several benchmark datasets (such as Fashion-MNIST and CIFAR-10) and architectures (MLPs and CNNs). Our findings suggest new avenues of research into the generalization ability of deep neural networks.},
-pages={385--397}
+pages={375--387}
 }
 
 @inproceedings{stelter26,
@@ -316,15 +308,15 @@ In this work, we introduce a novel ordinal loss function that emphasizes the pre
 Extensive experiments demonstrate that our proposed loss function consistently preserves the ordinal structure of DR grades, even under severe imbalance, outperforming both nominal and alternative ordinal formulations.
 
 Code will be released upon acceptance.},
-pages={398--424}
+pages={388--414}
 }
 
 @inproceedings{stmo26,
 title={Towards clinical application of liver, vessel, and tumor segmentation using partially labeled data},
 author={{\O}stmo, Eirik Agnalt and Radiya, Keyur and Wickstr{\o}m, Kristoffer Knutsen and Kampffmeyer, Michael and Mikalsen, Karl {\O}yvind and Jenssen, Robert},
 openreview={gys1CGbZ93},
-abstract={Accurate delineation of liver parenchyma, intrahepatic vessels, and tumors (LVT) may aid earlier tumor detection, consistent response assessment, and surgical planning for patients with liver cancer. Deep learning (DL) may enable such automated delineation, but available CT datasets are inconsistent and partially labeled, making them unsuited for end-to-end training. We investigate a single-head, 3D segmentation framework that learns from partially labeled data by: (i) loss masking per class or voxel to ignore missing annotations, (ii) using multi-hot targets and the anatomical hierarchy inherent to liver, vessels, and tumors, to handle overlapping structures without class competition. In controlled ablations that simulate partial-label training, this multi-label masked strategy reliably outperforms masked multi-class baselines, avoids precision collapse, and improves tumor overlap and lesion detection sensitivity. Scaling training to multiple partially labeled datasets, the model surpasses full-resolution nnU-Net on an external clinical cohort, with higher tumor and vessel segmentation performance. We conduct a retrospective feasibility analysis on clinical data to illustrate the clinical potential of the LVT application. We find that LVT models may facilitate earlier detection of metastasis, longitudinal size tracking aligned with radiologist measurements, 3D tumor vessel visualization for surgical planning, and stable inter-phase liver volumetry ($\approx$ 5\% deviation). These results show that multi-label masked learning enables robust, clinically relevant LVT segmentation from partially labeled datasets.},
-pages={425--437}
+abstract={Accurate delineation of liver parenchyma, intrahepatic vessels, and tumors (LVT) may aid earlier tumor detection, consistent response assessment, and surgical planning for patients with liver cancer. Deep learning (DL) may enable such automated delineation, but available CT datasets are inconsistent and partially labeled, making them unsuited for end-to-end training. We investigate a single-head, 3D segmentation framework that learns from partially labeled data by: (i) loss masking per class or voxel to ignore missing annotations, (ii) using multi-hot targets and the anatomical hierarchy inherent to liver, vessels, and tumors, to handle overlapping structures without class competition. In controlled ablations that simulate partial-label training, this multi-label masked strategy reliably outperforms masked multi-class baselines, avoids precision collapse, and improves tumor overlap and lesion detection sensitivity. Scaling training to multiple partially labeled datasets, the model surpasses full-resolution nnU-Net on an external clinical cohort, with higher tumor and vessel segmentation performance. We conduct a retrospective feasibility analysis on clinical data to illustrate the clinical potential of the LVT application. We find that LVT models may facilitate earlier detection of metastasis, longitudinal size tracking aligned with radiologist measurements, 3D tumor–vessel visualization for surgical planning, and stable inter-phase liver volumetry ($\approx$ 5\% deviation). These results show that multi-label masked learning enables robust, clinically relevant LVT segmentation from partially labeled datasets.},
+pages={415--427}
 }
 
 @inproceedings{thilakarathna26,
@@ -333,7 +325,7 @@ author={Thilakarathna, Mahagedara Waththe Samitha Nuwan and Avsar, Ercan and Nie
 openreview={ReVYgZMAut},
 software={https://github.com/msamdk/Fish_Re_Identification},
 abstract={Accurate fisheries data are crucial for effective and sustainable marine resource management. With the recent adoption of Electronic Monitoring (EM) systems, more video data is now being collected than can be feasibly reviewed manually. This paper addresses this challenge by developing an optimized deep learning pipeline for automated fish re-identification (Re-ID) using the novel AutoFish dataset, which simulates EM systems with conveyor belts with six similarly looking fish species. We demonstrate that key Re-ID metrics (R1 and mAP@k) are substantially improved by using hard triplet mining in conjunction with a custom image transformation pipeline that includes dataset-specific normalization. By employing these strategies, we demonstrate that the Vision Transformer-based Swin-T architecture consistently outperforms the Convolutional Neural Network-based ResNet-50, achieving peak performance of 41.65\% mAP@k and 90.43\% Rank-1 accuracy. An in-depth analysis reveals that the primary challenge is distinguishing visually similar individuals of the same species (Intra-species errors), where viewpoint inconsistency proves significantly more detrimental than partial occlusion. The source code and documentation are available at: \url{https://github.com/msamdk/Fish_Re_Identification.git}},
-pages={438--448}
+pages={428--438}
 }
 
 @inproceedings{utseth26,
@@ -343,7 +335,7 @@ openreview={V1aCgqLTeY},
 abstract={In this study we have investigated how vision foundation models, pretrained on different domains, compete with a specialized model for classification as a function of the size of the labeled training set of medical images. Furthermore, we have looked into the different models' ability to generalize to difficult cases.
 Our experiments are conducted for cardiac ultrasound images and the downstream task of view recognition. Still, this classification task is meant to serve as a demonstrative example, where we think that the findings should be transferable to other classification tasks and other domains. 
 Through these experiments we found that the foundation models were able to beat the performance of our task-specific supervised model when labelled training data were limited. This was true even for models trained on natural images and when using the simple linear probing method to create a classifier. We observed that more domain-specific foundation models achieved an even higher performance with limited data. On the other hand, the more general models showed a greater ability to generalize and perform well on difficult, out-of-distribution cases. Still, for typical in-domain cases with sufficient labeled data, a task-specific ResNet model was competitive with the foundation models, while also being both smaller and faster.},
-pages={449--457}
+pages={439--447}
 }
 
 @inproceedings{wedenborg26,
@@ -352,7 +344,7 @@ author={Wedenborg, Anna Emilie Jennow and Dorszewski, Teresa and Hansen, Lars Ka
 openreview={k4zOV54nP4},
 software={https://github.com/Wedenborg/Explaining-Latent-Representations-of-Neural-Networks-with-Archetypal-Analysis},
 abstract={We apply Archetypal Analysis to the latent spaces of trained neural networks, offering interpretable explanations of feature representations of neural networks without relying on user-defined corpora. Through layer-wise analyses of convolutional networks and vision transformers across multiple classification tasks, we demonstrate that archetypes are robust, dataset-independent, and provide intuitive insights into how models encode and transform information from layer to layer. Our approach enables global insights by characterizing the unique structure of the latent representation space of each layer, while also offering localized explanations of individual decisions as convex combinations of extreme points (i.e., archetypes).},
-pages={458--478}
+pages={448--468}
 }
 
 @inproceedings{wintel26,
@@ -366,7 +358,7 @@ By observing the full set of candidate trajectories, EnDfuser provides interpret
 Using this information we design a simplistic safety-rule that improves the system's driving score by 1.7\% on the LAV benchmark.
 Our findings suggest that ensemble diffusion, used as a drop-in replacement for traditional point-estimate trajectory planning modules, can contribute to an uncertainty-aware decision making process in End-to-End driving policies
 by modeling the uncertainty of the posterior trajectory distribution.},
-pages={479--496}
+pages={469--486}
 }
 
 @inproceedings{wodrich26,
@@ -374,8 +366,8 @@ title={Predictive and Explanatory Uncertainties in Graph Neural Networks: A Case
 author={Wodrich, Marisa and Feragen, Aasa and Schmidt, Mikkel N.},
 openreview={gIAWv3jFzH},
 software={https://github.com/anonymous-user3/NLDL2025-project},
-abstract={Accurate molecular property prediction is a key challenge in fields such as drug discovery and materials science, where deep learning models offer promising solutions. However, the widespread use of these models is hindered by their lack of transparency and the difficulty in assessing the reliability of their predictions. In this study, we address these issues by integrating uncertainty quantification and explainable AI techniques to enhance the trustworthiness of graph neural networks for molecular property prediction. We focus on predicting two distinct properties: aqueous solubility and mutagenicity. By deriving explanations in the form of substructure attribution scores, we obtain interpretable explanations that signify which chemically meaningful substructures influence the model s predictions. We incorporate uncertainty quantification to evaluate the confidence of both the predictions and their explanations. Our results demonstrate that predictive uncertainty scores correlate with the accuracy of the predictions for both tasks. Uncertainties in the explanations also correlate with prediction correctness, and there is a weak to moderate correlation between the uncertainties in the predictions and those in the explanations. These findings highlight the potential of combining uncertainty quantification and explainability to improve the trustworthiness of molecular property prediction models.},
-pages={497--505}
+abstract={Accurate molecular property prediction is a key challenge in fields such as drug discovery and materials science, where deep learning models offer promising solutions. However, the widespread use of these models is hindered by their lack of transparency and the difficulty in assessing the reliability of their predictions. In this study, we address these issues by integrating uncertainty quantification and explainable AI techniques to enhance the trustworthiness of graph neural networks for molecular property prediction. We focus on predicting two distinct properties: aqueous solubility and mutagenicity. By deriving explanations in the form of substructure attribution scores, we obtain interpretable explanations that signify which chemically meaningful substructures influence the model’s predictions. We incorporate uncertainty quantification to evaluate the confidence of both the predictions and their explanations. Our results demonstrate that predictive uncertainty scores correlate with the accuracy of the predictions for both tasks. Uncertainties in the explanations also correlate with prediction correctness, and there is a weak to moderate correlation between the uncertainties in the predictions and those in the explanations. These findings highlight the potential of combining uncertainty quantification and explainability to improve the trustworthiness of molecular property prediction models.},
+pages={487--495}
 }
 
 @inproceedings{wu26,
@@ -383,6 +375,6 @@ title={SimGroupAttn: Similarity-Guided Group Attention for Vision Transformer to
 author={Wu, Wangyang and Roscher, Ribana and T{\"o}tsch, Niklas},
 openreview={9TLLdpCeX0},
 abstract={In this paper, we address the problem of Vision Transformer (ViT) models being limited to intra-image attention, which prevents them from leveraging cross-sample information. This is highly relevant in agricultural data such as plant disease detection, an important challenge in agriculture where early and reliable diagnosis helps protect yields and food security. Yet existing methods often fail to capture subtle or overlapping symptoms that only become evident when considered in a population context. Our approach $\textit{SimGroupAttn}$ extends masked image modeling by enabling image patches to attend not only within their own image but also to similar regions across other images in the same batch. Guided by cosine similarity score which is trained jointly with model weights,$\textit{SimGroupAttn}$ incorporates population-level context into the learned representations, making them more robust and discriminative. Extensive experiments on PlantPathology dataset demonstrate that our approach outperforms Simple Masked Image Modeling (SimMIM) and Masked Autoencoders (MAE) in linear probing and classification task. It improves top-1 accuracy by up to 6.5\% in linear probing for complex classes and 3.5\% in classification compared with the best baseline model performance under the same settings.},
-pages={506--517}
+pages={496--507}
 }
 
