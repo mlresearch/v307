@@ -1,7 +1,23 @@
-# PMLR Proceedings of the Northern Lights Deep Learning Conference 2026
+# PMLR 307
 
-The review process was done with OpenReview and the accepted papers are accessible online at [https://openreview.net/group?id=NLDL.org/2026/Conference](https://openreview.net/group?id=NLDL.org/2026/Conference).
+To suggest fixes to this volume please make a pull request containing the changes requested and a justification for the changes.
 
-The NLDL 2026 Conference took place in Tromsø, Norway 6th-8th of January 2026.
+To edit the details of this conference work edit the [_config.yml](./_config.yml) file and submit a pull request.
 
-See the conference website for more info [www.nldl.org](www.nldl.org).
+To make changes to the individual paper details, edit the associated paper file in the [./_posts](./_posts) subdirectory.
+
+For details of how to publish in PMLR please check https://proceedings.mlr.press/faq.html
+
+For details of what is required to submit a proceedings please check https://proceedings.mlr.press/spec.html
+
+
+
+Published as Volume 307 by the Proceedings of Machine Learning Research on 19 January 2026.
+
+Volume Edited by:
+  * Hyeongji Kim
+  * Adín Ramírez Rivera
+  * Benjamin Ricaud
+
+Series Editors:
+  * Neil D. Lawrence
